@@ -3,7 +3,7 @@ Ecompre - Tu Tienda de Muebles Online
 ¡Bienvenido a Ecompre, tu tienda de muebles online! Este proyecto es una aplicación web desarrollada con React y Chakra UI que te permite explorar y comprar una variedad de muebles elegantes y modernos desde la comodidad de tu hogar. A continuación, te proporcionamos una breve descripción de la estructura y características principales del proyecto:
 
 Características Principales
-Exploración de Productos: Navega por nuestra selección de muebles, cada uno con su descripción detallada, precio y calificación.
+Exploración de Productos: Navega por nuestra selección de muebles, cada uno con su descripción detallada y precio.
 ![Seccion Principal](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/Seccion%20principal.png)
 Página de Producto: Obtén información detallada sobre un producto específico al hacer clic en él. Puedes ver la imagen, descripción, precio y otros detalles relevantes.
 ![DetalleProducto](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/SeccionDeDetalleProducto.png)
