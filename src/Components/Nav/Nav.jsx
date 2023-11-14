@@ -42,7 +42,7 @@ const Navbar = () => {
     >
       <Flex direction={{ base: 'column', md: 'row' }} spacing={4} align="center">
         <Box mb={{ base: '4', md: '0' }} align='center'>
-          <Image src="/public/logo.png" alt="Logo" boxSize="40px" objectFit="cover" onClick={NavegarAInicio} cursor='pointer' />
+          <Image src="img/logo.png" alt="Logo" boxSize="40px" objectFit="cover" onClick={NavegarAInicio} cursor='pointer' />
           <Text fontSize="xl" fontWeight="bold" ml={2}>
             Ecompre
           </Text>
