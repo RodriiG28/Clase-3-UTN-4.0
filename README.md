@@ -6,9 +6,10 @@ Características Principales
 Exploración de Productos: Navega por nuestra selección de muebles, cada uno con su descripción detallada y precio.
 ![Seccion Principal](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/Seccion%20principal.png)
 Página de Producto: Obtén información detallada sobre un producto específico al hacer clic en él. Puedes ver la imagen, descripción, precio y otros detalles relevantes.
-![DetalleProducto](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/SeccionDeDetalleProducto.png)
+![Detalle Producto](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/SeccionDeDetalleProducto.png)
 Compra y Carrito: Realiza compras directamente desde la página del producto. También puedes agregar productos al carrito para comprar más tarde.
-
+![Compra Exitosa](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/CompraExitosa.png)
+![Producto Agregado](https://raw.githubusercontent.com/RodriiG28/Clase-3-UTN-4.0/main/public/img/ProductoAgregado.png)
 Modales de Ayuda y Contacto: Accede a secciones de Ayuda y Contacto desde el Navbar. Estas secciones están en desarrollo y pronto estarán disponibles para proporcionar asistencia y soporte al cliente.
 
 Diseño Responsivo: La aplicación está diseñada para adaptarse a diferentes tamaños de pantalla, brindando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
