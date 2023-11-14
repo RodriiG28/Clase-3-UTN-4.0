@@ -44,9 +44,9 @@ const Navbar = () => {
         alignItems="center"
       >
         <Box mb={{ base: '2', md: '0' }} align='center' flexShrink={0}>
-          <Image src="img/logo1 (1).png" alt="Logo" boxSize='5rem' onClick={NavegarAInicio} cursor='pointer' />
+          <Image src="img/logo1 (1).png" alt="Logo" boxSize={['3rem', '5rem']} onClick={NavegarAInicio} cursor='pointer' />
         </Box>
-        <Text fontSize="xl" fontWeight="bold" alignSelf="center" fontFamily="serif" fontStyle="italic" mb="10px">
+        <Text fontSize={['md', 'xl']} fontWeight="bold" alignSelf="center" fontFamily="serif" fontStyle="italic" mb="10px">
           Ecompre
         </Text>
       </Stack>
@@ -56,19 +56,19 @@ const Navbar = () => {
         alignItems={{ base: 'center', md: 'center' }}
         justifyContent="center"
       >
-        <Button variant='solid' size="lg" onClick={NavegarAInicio}>
+        <Button variant='solid' size={['md', 'lg']} onClick={NavegarAInicio}>
           Inicio
         </Button>
-        <Button variant='ghost' size="lg" onClick={openAyudaModal}>
+        <Button variant='ghost' size={['md', 'lg']} onClick={openAyudaModal}>
           Ayuda
         </Button>
-        <Button variant='ghost' size="lg" onClick={openContactoModal}>
+        <Button variant='ghost' size={['md', 'lg']} onClick={openContactoModal}>
           Contacto
         </Button>
       </Stack>
 
       {/* Modal de Ayuda */}
-      <Modal isOpen={AyudaModalOpen} onClose={closeAyudaModal}>
+      <Modal isOpen={AyudaModalOpen} onClose={closeAyudaModal} size="md">
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Ayuda (En Desarrollo)</ModalHeader>
@@ -85,7 +85,7 @@ const Navbar = () => {
       </Modal>
 
       {/* Modal de Contacto */}
-      <Modal isOpen={ContactoModalOpen} onClose={closeContactoModal}>
+      <Modal isOpen={ContactoModalOpen} onClose={closeContactoModal} size="md">
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Contacto (En Desarrollo)</ModalHeader>

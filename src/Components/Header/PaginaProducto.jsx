@@ -1,7 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 import { Flex, Button, Box, Heading, Text, Image, Stack } from '@chakra-ui/react';
-import { color } from 'framer-motion';
 
 const PaginaProducto = ({ product, onBack }) => {
     const showAlert = (title, text, icon) => {
@@ -11,6 +10,18 @@ const PaginaProducto = ({ product, onBack }) => {
             icon,
             confirmButtonColor: '#3085d6',
             confirmButtonText: 'OK',
+            customClass: {
+                container: 'sweet-container',
+                popup: 'sweet-popup',
+                header: 'sweet-header',
+                title: 'sweet-title',
+                closeButton: 'sweet-close-button',
+                icon: 'sweet-icon',
+                content: 'sweet-content',
+                confirmButton: 'sweet-confirm-button',
+                cancelButton: 'sweet-cancel-button',
+                footer: 'sweet-footer',
+            },
         });
     };
 
