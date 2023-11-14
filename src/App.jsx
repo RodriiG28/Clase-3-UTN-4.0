@@ -21,7 +21,7 @@ const App = () => {
       sku: 'KSDL6Z4QJ2X',
       cantidad: 1,
       calificacion: 5,
-      imageUrl: 'img/Sillon0.jpg',
+      imageUrl: '.img/Sillon0.jpg',
     },
 
     {
