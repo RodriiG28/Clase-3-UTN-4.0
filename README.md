@@ -4,9 +4,9 @@ Ecompre - Tu Tienda de Muebles Online
 
 Características Principales
 Exploración de Productos: Navega por nuestra selección de muebles, cada uno con su descripción detallada, precio y calificación.
-
+![SeccionPrincipal]<span>https://github.com/RodriiG28/Clase-3-UTN-4.0/blob/main/public/img/Seccion%20principal.png</span>
 Página de Producto: Obtén información detallada sobre un producto específico al hacer clic en él. Puedes ver la imagen, descripción, precio y otros detalles relevantes.
-
+![DetalleProducto] <span>https://github.com/RodriiG28/Clase-3-UTN-4.0/blob/main/public/img/SeccionDeDetalleProducto.png</span>
 Compra y Carrito: Realiza compras directamente desde la página del producto. También puedes agregar productos al carrito para comprar más tarde.
 
 Modales de Ayuda y Contacto: Accede a secciones de Ayuda y Contacto desde el Navbar. Estas secciones están en desarrollo y pronto estarán disponibles para proporcionar asistencia y soporte al cliente.
@@ -33,6 +33,6 @@ Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
 
 Ecompre - Tu Tienda de Muebles Online
-Desarrollado por [Rodrigo Avila] 
+Desarrollado por [Rodrigo Avila] - https://github.com/RodriiG28
 =======
 # Clase-3UTN-4.05
