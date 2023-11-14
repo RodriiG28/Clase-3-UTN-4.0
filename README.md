@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Ecompre - Tu Tienda de Muebles Online
 ¡Bienvenido a Ecompre, tu tienda de muebles online! Este proyecto es una aplicación web desarrollada con React y Chakra UI que te permite explorar y comprar una variedad de muebles elegantes y modernos desde la comodidad de tu hogar. A continuación, te proporcionamos una breve descripción de la estructura y características principales del proyecto:
 
@@ -33,7 +33,6 @@ Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
 
 Ecompre - Tu Tienda de Muebles Online
-Desarrollado por [Rodrigo Avila] - [Enlace a tu perfil/portfolio]
+Desarrollado por [Rodrigo Avila] 
 =======
-# Clase-3UTN-4.0
->>>>>>> 0a1aac0cdd4d85a2a3f7d90b5c598b9e7ceba0e5
+# Clase-3UTN-4.05
