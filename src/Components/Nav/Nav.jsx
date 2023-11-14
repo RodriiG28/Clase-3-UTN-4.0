@@ -28,7 +28,7 @@ const Navbar = () => {
 
   const NavegarAInicio = () => {
     // Cambiar la URL de la página a la página principal
-    window.location.href = '/';
+    window.location.href = '#';
   }
   // Navbar 
   return (
