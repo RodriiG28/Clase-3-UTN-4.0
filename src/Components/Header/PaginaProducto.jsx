@@ -1,6 +1,7 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 import { Flex, Button, Box, Heading, Text, Image, Stack } from '@chakra-ui/react';
+import { color } from 'framer-motion';
 
 const PaginaProducto = ({ product, onBack }) => {
     const showAlert = (title, text, icon) => {
@@ -18,21 +19,28 @@ const PaginaProducto = ({ product, onBack }) => {
             direction="column"
             p={4}
             m={4}
-            maxW="100vh" // Establece un ancho máximo para evitar que ocupe todo el ancho de la pantalla
-            mx="auto" // Centra horizontalmente el contenido
-            alignContent="center" // Alinea el contenido en el centro
+            maxW="100vh"
+            mx="auto"
+            alignContent="center"
         >
-            <Box mb={4} maxW="100%">
+            <Box mb={4} maxW="100%" borderRadius="md" overflow="hidden" boxShadow="xl">
                 <Image src={product.imageUrl} alt={product.name} borderRadius="8px" w='100%' />
             </Box>
             <Box>
-                <Heading as="h2" mb={2} textAlign="center" fontSize="xl">
+                <Heading as="h2" mb={2} textAlign="center" fontSize="2xl" fontWeight="bold">
                     {product.name}
                 </Heading>
-                <Text mb={4} textAlign="center" fontSize="md" color="gray.600">
+                <Text mb={10} textAlign="center" fontSize="lg" color="gray.600">
                     {product.description}
                 </Text>
-                <Stack direction="column" spacing={2} textAlign="center">
+                <Stack
+                    direction="row"
+                    spacing={2}
+                    textAlign="center"
+                    justifyContent="space-between"
+                    mb={10}
+                    fontWeight="bold"
+                >
                     <Text fontSize="lg" color="teal.500">
                         <strong>Precio:</strong> {product.price}
                     </Text>
@@ -40,7 +48,7 @@ const PaginaProducto = ({ product, onBack }) => {
                         <strong>SKU:</strong> {product.sku}
                     </Text>
                     <Text fontSize="lg" color="teal.500">
-                        <strong>Disponible:</strong> {product.cantidad} unidades
+                        <strong>Disponible:</strong> {product.cantidad}
                     </Text>
                 </Stack>
             </Box>

@@ -15,7 +15,6 @@ import {
   ModalFooter,
 } from '@chakra-ui/react';
 
-// Modales del navbar (Ayuda y Contacto) 
 const Navbar = () => {
   const [AyudaModalOpen, setAyudaModalOpen] = useState(false);
   const [ContactoModalOpen, setContactoModalOpen] = useState(false);
@@ -27,35 +26,48 @@ const Navbar = () => {
   const closeContactoModal = () => setContactoModalOpen(false);
 
   const NavegarAInicio = () => {
-    // Cambiar la URL de la página a la página principal
-    window.location.href = '#';
+    window.location.href = '/';
   }
-  // Navbar 
+
   return (
     <Flex
       p={4}
       bg="teal.500"
       color="white"
       flexDirection={{ base: 'column', md: 'row' }}
-      alignItems={{ base: 'center', md: 'flex-start' }}
+      alignItems="center"
       justifyContent={{ base: 'center', md: 'space-between' }}
     >
-      <Flex direction={{ base: 'column', md: 'row' }} spacing={4} align="center">
-        <Box mb={{ base: '4', md: '0' }} align='center'>
-          <Image src="img/logo.png" alt="Logo" boxSize="40px" objectFit="cover" onClick={NavegarAInicio} cursor='pointer' />
-          <Text fontSize="xl" fontWeight="bold" ml={2}>
-            Ecompre
-          </Text>
+      <Stack
+        direction={{ base: 'row', md: 'row' }}
+        spacing={2}
+        alignItems="center"
+      >
+        <Box mb={{ base: '2', md: '0' }} align='center' flexShrink={0}>
+          <Image src="img/logo1 (1).png" alt="Logo" boxSize='5rem' onClick={NavegarAInicio} cursor='pointer' />
         </Box>
-      </Flex>
-      <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-        {/* Botón para ir a la página principal */}
-        <Button variant='solid' onClick={NavegarAInicio}>Inicio</Button>
-        <Button variant='ghost' onClick={openAyudaModal}>Ayuda</Button>
-        <Button variant='ghost' onClick={openContactoModal}>Contacto</Button>
+        <Text fontSize="xl" fontWeight="bold" alignSelf="center" fontFamily="serif" fontStyle="italic" mb="10px">
+          Ecompre
+        </Text>
+      </Stack>
+      <Stack
+        direction={{ base: 'column', md: 'row' }}
+        spacing={2}
+        alignItems={{ base: 'center', md: 'center' }}
+        justifyContent="center"
+      >
+        <Button variant='solid' size="lg" onClick={NavegarAInicio}>
+          Inicio
+        </Button>
+        <Button variant='ghost' size="lg" onClick={openAyudaModal}>
+          Ayuda
+        </Button>
+        <Button variant='ghost' size="lg" onClick={openContactoModal}>
+          Contacto
+        </Button>
       </Stack>
 
-      {/* Ayuda Modal */}
+      {/* Modal de Ayuda */}
       <Modal isOpen={AyudaModalOpen} onClose={closeAyudaModal}>
         <ModalOverlay />
         <ModalContent>
@@ -72,7 +84,7 @@ const Navbar = () => {
         </ModalContent>
       </Modal>
 
-      {/* Contacto Modal */}
+      {/* Modal de Contacto */}
       <Modal isOpen={ContactoModalOpen} onClose={closeContactoModal}>
         <ModalOverlay />
         <ModalContent>
@@ -91,6 +103,5 @@ const Navbar = () => {
     </Flex>
   );
 };
-
 
 export default Navbar;
