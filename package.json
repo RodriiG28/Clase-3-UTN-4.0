@@ -5,9 +5,12 @@
   "main": "vite.config.js",
   "homepage": "https://github.com/RodriiG28/Clase-3-UTN-4.0",
   "scripts": {
-    "deploy": "vite build && gh-pages -d dist",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",

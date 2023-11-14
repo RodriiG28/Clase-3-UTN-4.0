@@ -21,7 +21,7 @@ const App = () => {
       sku: 'KSDL6Z4QJ2X',
       cantidad: 1,
       calificacion: 5,
-      imageUrl: '/public/Sillon0.jpg',
+      imageUrl: './public/Sillon0.jpg',
     },
 
     {
@@ -33,7 +33,7 @@ const App = () => {
       sku: 'GBJHAJKD4X',
       cantidad: 4,
       calificacion: 3.8,
-      imageUrl: '/public/Sillon1.jpg',
+      imageUrl: './public/Sillon1.jpg',
     },
 
     {
@@ -45,7 +45,7 @@ const App = () => {
       sku: 'KSDL6Z4QJ2X',
       cantidad: 1,
       calificacion: 5,
-      imageUrl: '/public/Sillon2.jpg',
+      imageUrl: './public/Sillon2.jpg',
     },
     
     {
@@ -57,7 +57,7 @@ const App = () => {
       sku: 'WKLASD5KIE22E',
       cantidad: 1,
       calificacion: 5,
-      imageUrl: '/public/Sillon3.jpg',
+      imageUrl: './public/Sillon3.jpg',
     },
     {
       id: 4,
@@ -79,7 +79,7 @@ const App = () => {
       sku: 'JNMHSD3LKWI9',
       cantidad: 1,
       calificacion: 5,
-      imageUrl: '/public/Sillon5.jpg',
+      imageUrl: './public/Sillon5.jpg',
     },
   ];
   // Productos seleccionados para mostrar inicialmente
